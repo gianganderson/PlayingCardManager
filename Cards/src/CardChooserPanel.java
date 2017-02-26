@@ -49,11 +49,10 @@ public class CardChooserPanel extends JPanel {
 	private CardImagePanel imagePanel;
 	private JButton chooserbtn;
 	private SuitFaceMap map;
-	private String carddirname = "C:\\Users\\giang_000\\eclipse_workspace\\PlayingCardManager\\src\\Images";
+	private String carddirname = "C:\\Users\\giang_000\\eclipse_workspace\\PlayingCardManager\\Cards\\src\\Images";
 
 	
 	public CardChooserPanel() {
-		this.setLayout(null);
         control = new CardChooserControl();
         control.setVisible(true);
         add(control);

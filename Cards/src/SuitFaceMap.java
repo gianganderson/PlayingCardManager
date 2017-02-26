@@ -41,7 +41,7 @@ class SuitFace {
 
 public class SuitFaceMap {
 	private HashMap<SuitFace, BufferedImage> map;
-	private String carddirname = "C:\\Users\\giang_000\\eclipse_workspace\\PlayingCardManager\\src\\Images";
+	private String carddirname = "C:\\Users\\giang_000\\eclipse_workspace\\PlayingCardManager\\Cards\\src\\Images";
 	private double imagescalefactor = 0.3;
 	
 	public SuitFaceMap() {

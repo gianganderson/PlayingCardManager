@@ -47,11 +47,6 @@ public class SuitFaceMap {
 	public SuitFaceMap() {
 		map = new HashMap<SuitFace, BufferedImage>();
 		loadCardImages();
-		for(SuitFace sf : map.keySet()) {
-			System.out.println(sf.suit +" " +  sf.face);
-		}
-		
-		
 	}
 	
 	private void loadCardImages() {
